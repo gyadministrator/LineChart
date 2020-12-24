@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
         axisX.setTextColor(Color.GRAY);  //设置字体颜色
         //axisX.setName("date");  //表格名称
         axisX.setTextSize(10);//设置字体大小
-        axisX.setMaxLabelChars(8); //最多几个X轴坐标，意思就是你的缩放让X轴上数据的个数7<=x<=mAxisXValues.length
+        axisX.setMaxLabelChars(date.length); //最多几个X轴坐标，意思就是你的缩放让X轴上数据的个数7<=x<=mAxisXValues.length
         axisX.setValues(mAxisXValues);  //填充X轴的坐标名称
         data.setAxisXBottom(axisX); //x 轴在底部
         //data.setAxisXTop(axisX);  //x 轴在顶部
